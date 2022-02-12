@@ -19,7 +19,8 @@ public abstract class RecruitmentProcess {
 		System.out.println("RecruitmentProcess.HR_Discussion()");
 		return true;
 	}
-	
+
+	//Template method pattern
 	public boolean doRecruitment() {
 		checkEducation() ;
 		checkDocument();
